@@ -1,3 +1,17 @@
+# macports testing version of pyenv (tested by github user jcupon on 2.6.x, macOS Monterrey & Big Sur on x86)
+
+This is a FORK of the canonical GitHub version of pyenv available per the upstream documentation below.
+This project is based on a private copy of pyenv that Jamie uses for testing automation across several different
+bsd-alikes including macOS and net/freeBSD during games development and load testing. It is not currently
+integrated into the macports ecosystem and has not upstreamed any patches to the main pyenv project as of
+2022-10-14. I am providing this public copy in the hopes that it will help get pyenv integrated into the macports
+port tree to simplify switching between macOS versions on x86 and Apple Silicon chips after iOS/iPadOS 16 releases.
+
+If you are using this yourself, please check that there are no open issues on the pyenv/rbenv side that might
+address your issues, as keeping this up to date is a best-effort project for (Jamie)[https://github.com/jculpon].
+
+ORIGINAL UPSTREAM README.md FOLLOWS:
+
 # Simple Python Version Management: pyenv
 
 [![Join the chat at https://gitter.im/yyuu/pyenv](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/yyuu/pyenv?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
