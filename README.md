@@ -1,4 +1,4 @@
-# macports testing version of pyenv (tested by github user jcupon on 2.6.x, macOS Monterrey & Big Sur on x86)
+# macports testing version of pyenv (tested by github user jculpon on 2.6.x, macOS Monterrey & Big Sur on x86)
 
 This is a FORK of the canonical GitHub version of pyenv available per the upstream documentation below.
 This project is based on a private copy of pyenv that Jamie uses for testing automation across several different
